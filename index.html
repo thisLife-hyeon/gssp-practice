@@ -54,7 +54,7 @@
   <body>
     <section class="visual">
       <div class="inner">
-        <div class="title fade-in">
+        <div class="fade-in">
           <img src="fadeimg/visual_title.png" alt="" />
         </div>
         <div class="fade-in">
@@ -71,7 +71,7 @@
       </div>
     </section>
     <script>
-      const fadeEls = document.querySelectorAll('visual .fade-in');
+      const fadeEls = document.querySelectorAll('.visual .fade-in');
       fadeEls.forEach(function (fadeEl, index) {
         gsap.to(fadeEl, {
           duration: 1,
